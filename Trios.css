@@ -1,0 +1,4 @@
+#tres th {font-size: large;font-weight: bold;padding: 0 40px 0 40px;background-color: aquamarine;}
+#tres th,td,caption{font-family: cursive;}
+#tres tbody td {text-align: center;padding: 5px 20px 5px 20px;}
+#tres img {width: 160px;}
