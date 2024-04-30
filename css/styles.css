@@ -2,6 +2,7 @@ table {
     font-family: Arial, sans-serif; /* задаем шрифт для всей таблицы */
     background-color: rgb(44, 44, 44);
     color: white;
+    text-align: center;
     font-size: 13px;
     width: 700px;
     height: 200px;
@@ -9,15 +10,14 @@ table {
 }
 table td,
 table th {
-    border-right: 2px solid white;
-    text-align: center;
-    width: 350px;
+    border-right: 2px solid white; /* добавляем полосы между колоннами */
+    width: 20%;
     height: 50px;
     padding: 0 7px; /* внутренний отступ текста слева и справа по 7px */
 }
 
 #first_column {
-    width: 200px;
+    width: 25%;
     text-align: start;
 }
 
@@ -28,11 +28,6 @@ table th {
 
 .price {
     font-size: xx-large;
-}
-
-.main_table {
-    height: 50px;
-    color: rgb(211, 211, 211);
 }
 
 #basic {
