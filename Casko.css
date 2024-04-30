@@ -3,3 +3,4 @@
 #table4 tfoot td{font-size: medium;font-weight: bold;}
 #table4 tbody #fiol td {background-color: mediumslateblue;color: white;padding: 3px 40px 3px 40px;}
 #table4 td {text-align: center;}
+table {border-collapse: collapse;}
